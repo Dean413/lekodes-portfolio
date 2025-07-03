@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import React from 'react';
 import { Tilt } from 'react-tilt';
 import { services } from '../constants';
 import { SectionWrapper } from '../hoc';
@@ -40,11 +39,8 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Computer Science student at SRM University and multilingual speaker with a passion
-        for ethical hacking, artificial intelligence, and neural language processing. I am looking
-        to join a company that values innovation, collaboration, and continuous learning and am
-        confident that my enthusiasm and drive will help me succeed in any role that leverages my
-        passion for technology.
+        I"m a passionate and detail-oriented web developer with a strong focus on building modern, responsive, and user-friendly web applications. With experience across both frontend and backend technologies, I specialize in crafting seamless digital experiences using tools like React, Node.js, MySQL, and modern CSS frameworks like Tailwind.
+        Driven by curiosity and a deep love for solving real-world problems with code, I continuously push myself to stay current with industry best practices and emerging technologies. Whether working independently or in collaboration, I prioritize clean code, intuitive UI/UX, and scalable architecture.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
