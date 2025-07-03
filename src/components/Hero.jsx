@@ -10,57 +10,57 @@ import { loadSlim } from "@tsparticles/slim";
 
 
 const Hero = () => {
-  const [init, setInit] = useState(false);
+  // const [init, setInit] = useState(false);
 
-  useEffect(() => {
-    initParticlesEngine(async (engine) => {
-      await loadSlim(engine);
-    }).then(() => setInit(true));
-  }, []);
+  // useEffect(() => {
+  //   initParticlesEngine(async (engine) => {
+  //     await loadSlim(engine);
+  //   }).then(() => setInit(true));
+  // }, []);
 
-  const particlesOptions = useMemo(() => ({
-    background: { color: { value: "transparent" } },
-    fpsLimit: 60,
-    interactivity: {
-      events: {
-        onClick: { enable: true, mode: "push" },
-        onHover: { enable: true, mode: "repulse" },
-      },
-      modes: {
-        push: { quantity: 4 },
-        repulse: { distance: 150, duration: 0.4 },
-      },
-    },
-    particles: {
-      color: { value: "#915EFF" },
-      links: {
-        color: "#915EFF",
-        distance: 150,
-        enable: true,
-        opacity: 0.5,
-        width: 1,
-      },
-      move: {
-        enable: true,
-        speed: 2,
-        direction: "none",
-        outModes: { default: "bounce" },
-      },
-      number: {
-        value: 100,
-        density: { enable: true, area: 800 },
-      },
-      opacity: { value: 0.5 },
-      shape: { type: "circle" },
-      size: { value: { min: 1, max: 5 } },
-    },
-    detectRetina: true,
-  }), []);
+  // const particlesOptions = useMemo(() => ({
+  //   background: { color: { value: "transparent" } },
+  //   fpsLimit: 60,
+  //   interactivity: {
+  //     events: {
+  //       onClick: { enable: true, mode: "push" },
+  //       onHover: { enable: true, mode: "repulse" },
+  //     },
+  //     modes: {
+  //       push: { quantity: 4 },
+  //       repulse: { distance: 150, duration: 0.4 },
+  //     },
+  //   },
+  //   particles: {
+  //     color: { value: "#915EFF" },
+  //     links: {
+  //       color: "#915EFF",
+  //       distance: 150,
+  //       enable: true,
+  //       opacity: 0.5,
+  //       width: 1,
+  //     },
+  //     move: {
+  //       enable: true,
+  //       speed: 2,
+  //       direction: "none",
+  //       outModes: { default: "bounce" },
+  //     },
+  //     number: {
+  //       value: 100,
+  //       density: { enable: true, area: 800 },
+  //     },
+  //     opacity: { value: 0.5 },
+  //     shape: { type: "circle" },
+  //     size: { value: { min: 1, max: 5 } },
+  //   },
+  //   detectRetina: true,
+  // }), []);
 
   return (
     <section className="relative w-full h-screen mx-auto overflow-hidden">
-      🌌 Particles only inside Hero
-      {init && (
+      
+      {/* {init && (
         <Particles
           id="tsparticles-hero"
           options={particlesOptions}
@@ -74,7 +74,7 @@ const Hero = () => {
             pointerEvents: "none",
           }}
         />
-      )}
+      )} */}
 
       {/* Content above particles */}
       <div className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 z-10`}>
