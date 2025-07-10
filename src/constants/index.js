@@ -95,7 +95,7 @@ export const projects = [
       { name: "Next.js", color: "blue-text-gradient" },
       { name: "Node.js", color: "green-text-gradient" },
       { name: "MySQL", color: "pink-text-gradient" },
-      { name: "Vercel", color: "yellow-text-gradient" },
+      { name: "Vercel", color: "blue-text-gradient" },
     ],
     image: weatherpedia, // Replace with imported image or URL
     source_code_link: "https://github.com/yourusername/quickfund",
@@ -108,7 +108,7 @@ export const projects = [
       { name: "React", color: "blue-text-gradient" },
       { name: "Framer Motion", color: "green-text-gradient" },
       { name: "Vercel Functions", color: "pink-text-gradient" },
-      { name: "EmailJS/Nodemailer", color: "yellow-text-gradient" },
+      { name: "EmailJS/Nodemailer", color: "blue-text-gradient" },
     ],
     image: weatherpedia, // Replace with imported image or URL
     source_code_link: "https://github.com/yourusername/lekodes-portfolio",
@@ -121,7 +121,7 @@ export const projects = [
       { name: "React", color: "blue-text-gradient" },
       { name: "Bootstrap", color: "green-text-gradient" },
       { name: "Framer Motion", color: "pink-text-gradient" },
-      { name: "React Typewriter", color: "yellow-text-gradient" },
+      { name: "React Typewriter", color: "blue-text-gradient" },
     ],
     image: weatherpedia,
     source_code_link: "https://github.com/yourusername/phinex-construction",
