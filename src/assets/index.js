@@ -9,6 +9,10 @@ import abccapital from "./company/abccapital.png"
 // Import project images
 import weatherpedia from "./projects/WeatherPedia.png";
 import phinnexx from "./projects/phinexx.png"
+import portfolio from "./projects/lekodes-portfolio.png"
+import contactform from "./projects/contactForm.png"
+import trekarios from "./projects/trekarios.png"
+import abcsite from "./projects/abc-capital.png"
 
 
 // Import tech logos
@@ -49,4 +53,8 @@ export {
   mongodb,
   abccapital,
   phinnexx,
+  contactform,
+  portfolio,
+  trekarios,
+  abcsite
 };

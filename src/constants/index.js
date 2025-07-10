@@ -11,7 +11,11 @@ import {
   weatherpedia,  
   eduskill,
   abccapital,
-  phinnexx
+  phinnexx,
+  contactform,
+  portfolio,
+  trekarios,
+  abcsite
 } from "../assets";
 
 export const navLinks = [
@@ -89,7 +93,7 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "QuickFund",
+    name: "abccapital.com",
     description:
       "A micro-lending platform where users can apply for short-term loans, manage repayments, and view transaction history. Built with a focus on modern UI and serverless backend.",
     tags: [
@@ -98,7 +102,7 @@ export const projects = [
       { name: "MySQL", color: "pink-text-gradient" },
       { name: "Vercel", color: "blue-text-gradient" },
     ],
-    image: weatherpedia, // Replace with imported image or URL
+    image: abcsite, // Replace with imported image or URL
     source_code_link: "https://github.com/yourusername/quickfund",
   },
   {
@@ -111,7 +115,7 @@ export const projects = [
       { name: "Vercel Functions", color: "pink-text-gradient" },
       { name: "EmailJS/Nodemailer", color: "blue-text-gradient" },
     ],
-    image: weatherpedia, // Replace with imported image or URL
+    image: portfolio, // Replace with imported image or URL
     source_code_link: "https://github.com/yourusername/lekodes-portfolio",
   },
   {
@@ -136,7 +140,7 @@ export const projects = [
       { name: "Nodemailer", color: "green-text-gradient" },
       { name: "Vercel", color: "pink-text-gradient" },
     ],
-    image: weatherpedia, // Replace with imported image or URL
+    image: contactform, // Replace with imported image or URL
     source_code_link: "https://github.com/yourusername/contact-api",
   },
   {
@@ -147,21 +151,11 @@ export const projects = [
       { name: "React", color: "blue-text-gradient" },
       { name: "Tailwind CSS", color: "green-text-gradient" },
       { name: "Framer Motion", color: "pink-text-gradient" },
+       { name: "React Typewriter", color: "pink-text-gradient" },
+
     ],
-    image: weatherpedia, // replace with actual image path or import
+    image: trekarios, // replace with actual image path or import
     source_code_link: "https://github.com/yourusername/trekarios-vet-clinic",
-  },
-  {
-    name: "DevTerminal",
-    description:
-      "A fun terminal-style web portfolio where users can run commands like `about`, `projects`, and `contact` in a simulated CLI.",
-    tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "JavaScript", color: "pink-text-gradient" },
-    ],
-    image: weatherpedia, // Replace with imported image or URL
-    source_code_link: "https://github.com/yourusername/devterminal",
   },
 ];
 
