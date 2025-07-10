@@ -8,6 +8,7 @@ import abccapital from "./company/abccapital.png"
 
 // Import project images
 import weatherpedia from "./projects/WeatherPedia.png";
+import phinnexx from "./projects/phinexx.png"
 
 
 // Import tech logos
@@ -46,5 +47,6 @@ export {
   eduskill,
   sql,
   mongodb,
-  abccapital
+  abccapital,
+  phinnexx,
 };

@@ -10,7 +10,8 @@ import {
   edunet,
   weatherpedia,  
   eduskill,
-  abccapital
+  abccapital,
+  phinnexx
 } from "../assets";
 
 export const navLinks = [
@@ -123,7 +124,7 @@ export const projects = [
       { name: "Framer Motion", color: "pink-text-gradient" },
       { name: "React Typewriter", color: "blue-text-gradient" },
     ],
-    image: weatherpedia,
+    image: phinnexx,
     source_code_link: "https://github.com/yourusername/phinex-construction",
   },
   {
