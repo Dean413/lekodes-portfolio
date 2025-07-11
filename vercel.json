@@ -1,14 +1,14 @@
 {
   "headers": [
     {
-      "source": "/resume.pdf",
+      "source": "/mycv.pdf",
       "headers": [
         { "key": "Cache-Control", "value": "public,max-age=31536000,immutable" }
       ]
     }
   ],
   "rewrites": [
-    { "source": "/resume.pdf", "destination": "/resume.pdf" },
+    { "source": "/mycv.pdf", "destination": "/mycv.pdf" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
