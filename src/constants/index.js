@@ -8,6 +8,7 @@ import {
   tailwind,
   nodejs,
   edunet,
+  git,
   weatherpedia,  
   eduskill,
   abccapital,
@@ -47,6 +48,7 @@ export const services = [
   { title: "mySQL", icon: sql },
   { title: "Mongodb", icon: mongodb },
   { title: "Css", icon: css },
+  { title: "Git", icon: git },
    
 ];
 
@@ -95,7 +97,7 @@ export const projects = [
   {
     name: "abccapital.com",
     description:
-      "A micro-lending platform where users can apply for short-term loans, manage repayments, and view transaction history. Built with a focus on modern UI and serverless backend.",
+      "A multifaceted organization dedicated to empowering individuals and businesses through strategic training, expert consultancy, and innovative financial solutions",
     tags: [
       { name: "Next.js", color: "blue-text-gradient" },
       { name: "Node.js", color: "green-text-gradient" },
@@ -103,10 +105,11 @@ export const projects = [
       { name: "Vercel", color: "blue-text-gradient" },
     ],
     image: abcsite, // Replace with imported image or URL
-    source_code_link: "https://github.com/yourusername/quickfund",
+    source_code_link: "https://github.com/Abccapitallimited/abccapitallimitedweb",
+    demo_link: "https://abccapitallimited.com/"
   },
   {
-    name: "Lekodes Portfolio",
+    name: "Portfolio Website",
     description:
       "A modern developer portfolio showcasing projects, skills, and contact form integrated with serverless email sending functionality using Vercel Functions.",
     tags: [
@@ -116,7 +119,8 @@ export const projects = [
       { name: "EmailJS/Nodemailer", color: "blue-text-gradient" },
     ],
     image: portfolio, // Replace with imported image or URL
-    source_code_link: "https://github.com/yourusername/lekodes-portfolio",
+    source_code_link: "https://github.com/Dean413/portfolio",
+    demo_link: "https://portfolio-ecru-nine-22.vercel.app/"
   },
   {
     name: "Phinex Construction",
@@ -129,7 +133,8 @@ export const projects = [
       { name: "React Typewriter", color: "blue-text-gradient" },
     ],
     image: phinnexx,
-    source_code_link: "https://github.com/yourusername/phinex-construction",
+    source_code_link: "https://github.com/Abccapitallimited/phinnexx",
+    demo_link: "https://phinnexx.com/"
   },
   {
     name: "Contact API",
@@ -141,7 +146,8 @@ export const projects = [
       { name: "Vercel", color: "pink-text-gradient" },
     ],
     image: contactform, // Replace with imported image or URL
-    source_code_link: "https://github.com/yourusername/contact-api",
+    source_code_link: "https://github.com/Dean413/portfolio/tree/main/src/containers/contact",
+    demo_link: "https://portfolio-ecru-nine-22.vercel.app/contact"
   },
   {
     name: "Trekarios Vet Clinic",
@@ -155,7 +161,8 @@ export const projects = [
 
     ],
     image: trekarios, // replace with actual image path or import
-    source_code_link: "https://github.com/yourusername/trekarios-vet-clinic",
+    source_code_link: "https://github.com/Dean413/trekarios",
+    demo_link: "https://dean413.github.io/trekarios"
   },
 ];
 

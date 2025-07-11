@@ -1,9 +1,17 @@
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
+import { motion } from "framer-motion";
+import { textVariant } from "../utils/motion";
 
 const Location = () => {
     return ( 
        <div className="mt-10">
-      <h3 className="text-white text-[24px] font-bold mb-4">My Location</h3>
+      <motion.div variants={textVariant()}>
+            <p className={`${styles.sectionSubText}`}>
+              My Location
+            </p>
+            <h2 className={`${styles.sectionHeadText}`}>Location</h2>
+          </motion.div>
       <div className="w-full h-[400px] rounded-xl overflow-hidden shadow-lg">
         <iframe
           title="Trekarios Veterinary Clinic Location"
