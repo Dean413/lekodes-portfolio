@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="flex gap-4 text-xl justify-center mb-2">
         {/* LinkedIn */}
         <a
-          href="https://www.linkedin.com/in/bamigboyeolalekan" 
+          href="https://www.linkedin.com/in/olalekanbamigboye" 
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-400 transition text-[30px]"
