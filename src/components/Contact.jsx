@@ -102,6 +102,8 @@ const Contact = () => {
       <motion.div variants={slideIn("left", "tween", 0.2, 1)} className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact Me</h3>
+        <small className="text-secondary"><a href="mailto:bamigboyeolalekan6@gmail.com">bamigboyeolalekan6@gmail.com</a></small>
+        <small className="text-secondary gap-2 ml-2"><a href="tel:+2347039752831">+2347039752831</a></small>
 
         <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
           <InputField
