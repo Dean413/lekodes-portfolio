@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { About, Contact, Experience, Hero, Navbar, StarsCanvas, Works, } from './components';
 import Location from './components/location';
 import Footer from './components/footer';
-import {inject} from "@vercel/analytics"
+
 
 
 const App = () => {
@@ -37,6 +37,6 @@ const App = () => {
   );
 };
 
-inject()
+
 
 export default App;
