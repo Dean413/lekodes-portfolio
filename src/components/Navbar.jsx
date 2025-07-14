@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = '/mycv.pdf';
+    const resumeUrl = '/olalekan-bamigboye-resume.pdf';
     window.open(resumeUrl, "_blank");
   };
 
