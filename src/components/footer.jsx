@@ -1,10 +1,11 @@
 import React from "react";
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { SectionWrapper } from "../hoc";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white text-center py-4 mt-10">
+    <footer className=" text-white text-center w-[100%] py-4 mt-10">
       <div className="flex gap-4 text-xl justify-center mb-2">
         {/* LinkedIn */}
         <a
@@ -21,19 +22,21 @@ const Footer = () => {
           href="https://wa.me/2347039752831"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-green-400 transition text-[30px]"
-        >
+          className="hover:text-green-400 transition text-[30px]">
           <FaWhatsapp /> 
         </a>
 
         {/* Email */}
         <a
+          target="_blank"
           href="mailto:bamigboyeolalekan6@gmail.com"
           className="hover:text-red-400 transition text-[30px]"
         >
           <MdEmail />
         </a>
       </div>
+
+     
 
       <p className="text-sm">
         &copy; {new Date().getFullYear()} All rights reserved — Olalekan Bamigboye
@@ -43,4 +46,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default SectionWrapper (Footer, "footer")

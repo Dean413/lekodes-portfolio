@@ -25,7 +25,10 @@ const App = () => {
           <Location />
           <StarsCanvas />
         </div>
-        <Footer />
+     
+           <Footer />
+        
+       
       </div>
     </BrowserRouter>
     
